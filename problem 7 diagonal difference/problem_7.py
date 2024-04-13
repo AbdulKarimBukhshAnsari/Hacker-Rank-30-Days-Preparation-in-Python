@@ -14,7 +14,7 @@ def diagonalDifference(arr):
     for i in range(len(arr)):
         for j in range(len(arr)):
             if i == j : 
-                sum_1 = sum_1 + arr[i][j]
+                sum_1 = sum_1 + arr[i][j]   #using the logic to find the sum of diagoal elemnets and suming it so that we will be able to find the difference 
             if i+j == len(arr) -1 :
                 sum_2 = sum_2 + arr[i][j]
     result = abs(sum_1 - sum_2)   # abs will convert negative number in to positive too 
