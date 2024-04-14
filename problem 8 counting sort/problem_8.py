@@ -10,7 +10,7 @@
 def countingSort(arr):
     result_array = [0 for _ in range(100)]
     for i in arr:
-        result_array[i+1]+=1
+        result_array[i]+=1
     print(result_array) 
 
 if __name__ == '__main__':
